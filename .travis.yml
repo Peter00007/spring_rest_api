@@ -4,4 +4,4 @@ github_token: $GITHUB_TOKEN
 
 install: true
 script:
-- mvn install
+- mvn clean install
