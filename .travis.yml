@@ -1,4 +1,6 @@
 language: java
 
+github_token: $GITHUB_TOKEN
+
 script:
   - mvn clean package
