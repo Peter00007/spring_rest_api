@@ -2,5 +2,6 @@ language: java
 
 github_token: $GITHUB_TOKEN
 
-script:
-  - mvn clean package
+language: java
+sudo: false
+script: mvn clean verify
