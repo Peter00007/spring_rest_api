@@ -2,6 +2,9 @@ language: java
 
 github_token: $GITHUB_TOKEN
 
+install:
+- mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
 language: java
 sudo: false
 script: mvn clean verify
